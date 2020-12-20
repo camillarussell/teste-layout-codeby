@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins;
-  src: url(../fonts/Poppins-Regular.ttf);
+  src: url(../fonts/Poppins-Light.ttf);
 }
 
 @font-face {
@@ -29,6 +29,7 @@ h2 {
 
 h3 {
   font-size: 34px;
+  margin-bottom: 10px;
 }
 
 p {
@@ -99,13 +100,12 @@ p {
   color: #fff;
 }
 .card h2 {
-    margin-bottom: 23px;
-  }  
+  margin-bottom: 23px;
+}
 
 .card p {
-    font-size: 20px;
-  }
-  
+  font-size: 20px;
+}
 
 .nature {
   width: 370px;
@@ -133,8 +133,8 @@ p {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;    
-  padding: 0 30px;  
+  justify-content: center;
+  padding: 0 30px;
 }
 
 .analysis {
@@ -142,7 +142,7 @@ p {
   height: 346px;
   background: url(../img/car.png) no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   text-align: right;
   padding: 20px 30px;
 }
@@ -166,6 +166,7 @@ p {
 .growth-plans .container {
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .growth-plans-text {
@@ -192,6 +193,8 @@ p {
 .growth-plans-base small {
   font-family: Poppins;
   font-size: 12px;
+  line-height: 1.2em;
+  display: block;
 }
 
 .base-1 {
@@ -220,5 +223,10 @@ p {
 
 .growth-plans-increase {
   height: 100px;
+  padding: 18px;
   background-color: #005499;
+}
+
+.growth-plans-increase p {
+  font-size: 20px;
 }
