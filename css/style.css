@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+  font-family: PoppinsSemiBold;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 62px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 52px;
+  color: #383838;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+p {
+  font-size: 18px;
+  color: #383838;
+}
+
+.banner {
+  width: 100%;
+  height: 613px;
+  background: url(../img/banner2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner img {
+  margin-top: 74px;
+  width: 147px;
+}
+
+.banner h1 {
+  max-width: 700px;
+  line-height: 75px;
+  margin-top: 78px;
+  margin-bottom: 0;
+  /* max-width: 676px; */
+}
+
+.banner a {
+  width: 245px;
+  padding: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #383838;
+  margin-top: 65px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  /* background-color: salmon; */
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.categories-header {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card * {
+  color: #fff;
+}
+.card h2 {
+    margin-bottom: 23px;
+  }  
+
+.card p {
+    font-size: 20px;
+  }
+  
+
+.nature {
+  width: 370px;
+  height: 346px;
+  background: url(../img/nature.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 30px;
+}
+
+.daily {
+  width: 770px;
+  height: 346px;
+  background: url(../img/cafe.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 30px;
+}
+
+.together {
+  width: 100%;
+  height: 346px;
+  background: url(../img/action.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  padding: 0 30px;  
+}
+
+.analysis {
+  width: 770px;
+  height: 346px;
+  background: url(../img/car.png) no-repeat;
+  background-size: cover;
+  background-position: center;  
+  text-align: right;
+  padding: 20px 30px;
+}
+
+.pictures {
+  width: 370px;
+  height: 346px;
+  background: url(../img/palms.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+}
+
+/* growth plans */
+
+.growth-plans {
+  background-color: #f4f4f4;
+  padding: 100px 0;
+}
+
+.growth-plans .container {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.growth-plans-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.growth-plans-column {
+  width: 170px;
+}
+
+.growth-plans-column * {
+  color: #ffffff;
+}
+
+.growth-plans-base {
+  background-color: #0088ed;
+  display: flex;
+  align-items: flex-end;
+  padding: 18px;
+}
+
+.growth-plans-base small {
+  font-family: Poppins;
+  font-size: 12px;
+}
+
+.base-1 {
+  height: 78px;
+}
+
+.base-2 {
+  height: 128px;
+}
+
+.base-3 {
+  height: 178px;
+}
+
+.base-4 {
+  height: 228px;
+}
+
+.base-5 {
+  height: 278px;
+}
+
+.base-6 {
+  height: 327px;
+}
+
+.growth-plans-increase {
+  height: 100px;
+  background-color: #005499;
+}
