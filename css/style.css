@@ -80,6 +80,12 @@ p {
   margin-top: 65px;
 }
 
+.banner a:hover {
+  border: solid 1px #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
 /* CATEGORIES */
 
 .container {
@@ -245,7 +251,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1024px) {
+@media (max-width: 1170px) {
   .container {
     padding: 0 15px;
   }
@@ -264,24 +270,12 @@ p {
     margin-bottom: 0;
   }
 
-  .growth-plans {
-    margin-top: 0;
-    padding: 0;
-  }
-
   .growth-plans-text {
-    position: relative;
-    padding: 50px 0;
-  }
-
-  .growth-plans .container {
-    justify-content: center;
-    flex-wrap: wrap;
+    padding: 0 15px;
   }
 
   .growth-plans-column {
-    width: 100%;
-    margin-bottom: 15px;
+    width: 150px;
   }
 }
 
@@ -290,5 +284,32 @@ p {
     font-size: 30px;
     max-width: 350px;
     line-height: 32px;
+  }
+
+  .growth-plans {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .growth-plans .container {
+    justify-content: center;
+  }
+
+  .growth-plans-text {
+    position: relative;
+    padding: 50px 0;
+  }
+
+  .growth-plans-column {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .base-2,
+  .base-3,
+  .base-4,
+  .base-5,
+  .base-6 {
+    height: 78px;
   }
 }
