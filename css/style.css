@@ -1,3 +1,5 @@
+/* GERAL */
+
 @font-face {
   font-family: Poppins;
   src: url(../fonts/Poppins-Light.ttf);
@@ -24,7 +26,7 @@ h1 {
 h2 {
   font-size: 52px;
   color: #383838;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 h3 {
@@ -36,6 +38,12 @@ p {
   font-size: 18px;
   color: #383838;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+/* BANNER */
 
 .banner {
   width: 100%;
@@ -59,7 +67,6 @@ p {
   line-height: 75px;
   margin-top: 78px;
   margin-bottom: 0;
-  /* max-width: 676px; */
 }
 
 .banner a {
@@ -71,6 +78,8 @@ p {
   color: #383838;
   margin-top: 65px;
 }
+
+/* CATEGORIES */
 
 .container {
   max-width: 1170px;
@@ -99,6 +108,7 @@ p {
 .card * {
   color: #fff;
 }
+
 .card h2 {
   margin-bottom: 23px;
 }
@@ -156,10 +166,11 @@ p {
   padding: 25px;
 }
 
-/* growth plans */
+/* GROWTH PLANS*/
 
 .growth-plans {
   background-color: #f4f4f4;
+  margin-top: 65px;
   padding: 100px 0;
 }
 
